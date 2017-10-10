@@ -1,0 +1,13 @@
+<!-- equivalent to Read  -->
+
+<p>First Name: <%= @pizza.first_name() %></p>
+<p>Last Name: <%= @pizza.last_name() %></p>
+<p>Topping: <%= @pizza.topping() %></p>
+<p>Quantity: <%= @pizza.quantity() %></p>
+
+<p><a href="/pizzas/<%= @pizza.id %>/edit">Change an existing order</a></p>
+
+<form action="/pizzas/<%= @pizza.id %>/delete" method="post">
+	<input type="submit" value="Delete"/>
+
+</form>

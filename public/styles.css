@@ -1,0 +1,13 @@
+body {
+	background-color: #ED254E;
+	margin: 0;
+	/*m0 tab => margin: 0;*/
+}
+
+p {
+	color: #FDFFFC
+}
+
+p a {
+	color: #3AD8D0
+}

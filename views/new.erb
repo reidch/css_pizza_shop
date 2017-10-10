@@ -1,0 +1,23 @@
+<!-- essentially creating a hash -->
+
+<form action="/pizzas" method="POST">
+<!-- this is us posting the new order to the db -->
+	<label for="firstName">First Name:</label>
+	<input type="text" name="first_name" id="firstName"/>
+<!-- name has to match the tag, id has to match the form -->
+	<label for="lastName">Last Name:</label>
+	<input type="text" name="last_name" id="lastName"/>
+
+<!-- creating a dropdown list to select from -->
+<!-- VALUE when want to give pre-filled information -->
+	<label for="pizzaSelect">Select a pizza:</label>
+	<select name="topping" id="pizzaSelect">
+		<option value="Scrummy">Scrummy</option>
+		<option value="Strawberry">Strawberry</option>
+	</select>
+
+	<label for="quantity">Quantity:</label>
+	<input type="number" name="quantity" id="quantity"/>
+	<input type="submit" value="Submit">
+
+</form>
