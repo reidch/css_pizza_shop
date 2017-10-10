@@ -1,7 +1,6 @@
 body {
 	background-color: #ED254E;
-	margin: 0;
-	/*m0 tab => margin: 0;*/
+	margin: 1;
 }
 
 p {
@@ -10,4 +9,31 @@ p {
 
 p a {
 	color: #3AD8D0
+}
+
+ul {
+	color: #011627;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+section	{
+	width: 50vw;
+}
+
+p	{
+	font-size: 1.5em;
+	font-family: fantasy;
+	margin: 1.5em;
+}
+
+form {
+	display: flex;
+	align-items: flex-start;
+	font-size: 1.5em;
+	font-family: fantasy;
+}
+
+input {
+	font-size: 0.75em;
 }
